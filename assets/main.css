@@ -1,0 +1,123 @@
+body {
+	margin: 0 auto;
+}
+
+#content {
+	padding: 20px;
+	min-height: 550px;
+	margin-bottom: 50px;
+	
+}
+/*Header/högst upp på sidan*/
+
+#logga {
+	border: 2px solid black;
+	width: 80px;
+	float: left;
+	padding: 0.3em;
+}
+
+#login-reg {
+	border: 2px solid black;
+	width: 140px;
+	float: right;
+	padding: 0.3em;
+}
+
+/*Sökområdet*/
+
+#upper {
+	background-color: #49AB49;
+	border: 3px dashed #FFFFFF;
+	border-radius: 2em 1em 4em / 0.5em 5em;
+	text-align: center;
+	margin-bottom: 2%;
+	padding: 0.5em;
+	clear: left;
+	margin-top: 60px;
+}
+
+#inputsearch {
+	width: 60%;
+	height: 40px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size: 20px;
+}
+
+#searchBtn {
+	height: 40px;
+	/*margin-bottom: 15px;*/
+	border-radius: 5px;
+	border: 2px outset black;
+	font-size: 20px;
+	background-color: #CCE3CC;
+	margin: auto auto 15px 13px;
+}
+
+#searchBtn:hover {
+	background-color: #A2C3A2;
+	font-size: 19px;
+	border: 3px inset black;
+}
+
+/*Huvudinnehåll*/
+
+#main {
+	margin: 0 14em 50px 12em;
+	padding: 10px;
+	clear: left;
+}
+
+#middle {
+	background-color: orange;
+	width: 100%;
+	float: left;
+	margin: auto 10px;
+	background-color: white;
+	border: 3px solid #768976;
+	border-radius: 4px;
+	padding: 5px;
+	min-height: 300px;
+}
+
+#leftnav {
+	/*width: 11em;*/
+	margin-left: -100%;
+	position: relative;
+	right: 13em;	
+}
+
+#rightnav {
+	margin-left: -14em;
+	position: relative;
+	left: 15em;	
+	/*width: 13em;*/
+}
+
+.sidebar {
+	width: 18%;
+	float: left;
+	padding: 5px 10px;
+	/*padding: 0 0.5em;*/
+	background-color: #FFFFFF;
+	border: 3px solid #768976;
+	border-radius: 0px 10px;
+	/*width: 13em;*/
+	min-height: 300px;
+
+}
+
+/*Footer*/
+
+#footer {
+	/*background-color: #EBF5F1;*/
+	background-color: #C1CBC1;
+	clear: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-top: 2px dotted #EBF5F1;
+	min-height: 70px;
+}
+
