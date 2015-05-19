@@ -27,7 +27,7 @@ body {
 /*Sökområdet*/
 
 #upper {
-	background-color: #49AB49;
+	background-color: #32944C;
 	border: 3px dashed #FFFFFF;
 	border-radius: 2em 1em 4em / 0.5em 5em;
 	text-align: center;
@@ -35,6 +35,8 @@ body {
 	padding: 0.5em;
 	clear: left;
 	margin-top: 60px;
+	
+
 }
 
 #inputsearch {
@@ -86,7 +88,7 @@ body {
 	/*width: 11em;*/
 	margin-left: -100%;
 	position: relative;
-	right: 13em;	
+	right: 14em;	
 }
 
 #rightnav {
@@ -108,6 +110,7 @@ body {
 	min-height: 300px;
 
 }
+
 
 /*Footer*/
 
