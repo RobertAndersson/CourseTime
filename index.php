@@ -12,7 +12,7 @@
         <div id="login-reg"> Logga in/registrera </div>
       </div>
       <div id="upper">
-        <form action="#" method="GET" class="searchfield">
+        <form action="#" method="POST" class="searchfield">
           <label for="inputsearch"><h1> Sök kurs </h1></label>
           <input type="text" placeholder="  Skriv in sökning här..." id="inputsearch" name="search">
           <input type="submit" value="Sök" id="searchBtn" class="searchBtn">
