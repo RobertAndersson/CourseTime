@@ -17,7 +17,7 @@
 		$output ="";
 		while ($row = $result->fetch_assoc()) 
 		{ ?>
-			<div>  <?php echo $row['courseName']; ?> </div>
+			<div class="showcourse" id="showcourse"> <span id="course">Kurs:</span> <?php echo $row['courseName'];?> </div>
 			
 <?php   }
 	}
