@@ -25,12 +25,12 @@
               <option value="15hp">15</option>
               <option value="30hp">30</option>
             </select>
-            <select name="pacefilter">
+            <select name="levelfilter">
               <option value="level">Nivå</option>
               <option value="grund">Grundnivå</option>
               <option value="avancerad">Avancerad nivå</option>
             </select>
-            <select name="levelfilter">
+            <select name="pacefilter">
               <option value="pace">Studietakt</option>
               <option value=">=25">Upp till och med 25%</option>
               <option value=">=50">Upp till och med 50%</option>
