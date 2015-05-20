@@ -8,7 +8,8 @@
   <body>
     <div id="content">
       <div id="header">
-        <div id="logga">CourseTime logga</div>
+        <img id="logga" src="images/CourseTime-logo.png">
+        <!--<div id="logga">CourseTime logga</div>-->
         <div id="login-reg"> Logga in/registrera </div>
       </div>
       <div id="upper">
