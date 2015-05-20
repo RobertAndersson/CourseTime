@@ -11,10 +11,11 @@ body {
 /*Header/högst upp på sidan*/
 
 #logga {
-	border: 2px solid black;
-	width: 80px;
+	width: 160px;
 	float: left;
 	padding: 0.3em;
+	height: 80px;
+	margin-bottom: 12px;
 }
 
 #login-reg {
@@ -27,7 +28,7 @@ body {
 /*Sökområdet*/
 
 #upper {
-	background-color: #32944C;
+	background-color: #5687AF;
 	border: 3px dashed #FFFFFF;
 	border-radius: 2em 1em 4em / 0.5em 5em;
 	text-align: center;
@@ -54,12 +55,12 @@ body {
 	border-radius: 5px;
 	border: 2px outset black;
 	font-size: 20px;
-	background-color: #CCE3CC;
+	background-color: #C3D0DB;
 	margin: auto auto 15px 13px;
 }
 
 #searchBtn:hover {
-	background-color: #A2C3A2;
+	background-color: #91ADC4;
 	font-size: 19px;
 	border: 3px inset black;
 }
@@ -73,15 +74,15 @@ body {
 }
 
 #middle {
-	background-color: orange;
 	width: 100%;
 	float: left;
 	margin: auto 10px;
 	background-color: white;
-	border: 3px solid #768976;
+	border: 3px solid #718CA3;
 	border-radius: 4px;
 	padding: 5px;
 	min-height: 300px;
+	margin-bottom: 40px;
 }
 
 #leftnav {
@@ -104,7 +105,7 @@ body {
 	padding: 5px 10px;
 	/*padding: 0 0.5em;*/
 	background-color: #FFFFFF;
-	border: 3px solid #768976;
+	border: 3px solid #718CA3;
 	border-radius: 0px 10px;
 	/*width: 13em;*/
 	min-height: 300px;
@@ -115,8 +116,7 @@ body {
 /*Footer*/
 
 #footer {
-	/*background-color: #EBF5F1;*/
-	background-color: #C1CBC1;
+	background-color: #A7B2BB;
 	clear: left;
 	padding-left: 20px;
 	padding-top: 20px;
