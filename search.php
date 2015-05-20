@@ -11,26 +11,26 @@ $output = "";
 
 		if ($_POST['hpfilter'] == "5hp") {
 			
-			$sql = "(SELECT * FROM courses WHERE courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%' AND courseLength = '5hp')";
+			$sql = "(SELECT * FROM courses WHERE (courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%') AND courseLength = '5hp')";
 		}
 
 		elseif ($_POST['hpfilter'] == "7.5hp") {
 			
-			$sql = "(SELECT * FROM courses WHERE courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%' AND courseLength = '7,5hp')";
+			$sql = "(SELECT * FROM courses WHERE (courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%') AND courseLength = '7,5hp')";
 		}
 
 		elseif ($_POST['hpfilter'] == "15hp") {
 			
-			$sql = "(SELECT * FROM courses WHERE courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%' AND courseLength = '15hp')";
+			$sql = "(SELECT * FROM courses WHERE (courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%') AND courseLength = '15hp')";
 		}
 
 		elseif ($_POST['hpfilter'] == "30hp") {
 			
-			$sql = "(SELECT * FROM courses WHERE courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%' AND courseLength = '30hp')";
+			$sql = "(SELECT * FROM courses WHERE (courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%') AND courseLength = '30hp')";
 		}
 
 		else {
-			$sql = "SELECT * FROM courses WHERE courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%'";
+			$sql = "SELECT * FROM courses WHERE (courseName LIKE '%" . $search . "%' OR courseSubject LIKE '%" . $search ."%')";
 		}
 		
 		$result= $db->connection->query($sql);
